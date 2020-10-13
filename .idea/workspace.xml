@@ -9,22 +9,27 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98427798-9381-4b81-97b1-a981d1f7d9e5" name="Default Changelist" comment="UPDATE PLUGINS">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readmePictures/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readmePictures/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readmePictures/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readmePictures/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readmePictures/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readmePictures/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readmePictures/7.png" afterDir="false" />
+    <list default="true" id="98427798-9381-4b81-97b1-a981d1f7d9e5" name="Default Changelist" comment="Add readme images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,6 +216,7 @@
       <workItem from="1602132663881" duration="4656000" />
       <workItem from="1602571360014" duration="1163000" />
       <workItem from="1602573003713" duration="4079000" />
+      <workItem from="1602588788989" duration="332000" />
     </task>
     <task id="LOCAL-00001" summary="workspace.xml">
       <created>1602137240907</created>
@@ -233,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602572803522</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add readme images">
+      <created>1602588838039</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602588838039</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +270,8 @@
     </ignored-roots>
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="UPDATE PLUGINS" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE PLUGINS" />
+    <MESSAGE value="Add readme images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add readme images" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="399" key="#Composer" timestamp="1601312794911">
@@ -292,18 +306,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="615" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1601573795683" />
-    <state x="189" y="214" key="Vcs.Push.Dialog.v2" timestamp="1602588665309">
+    <state x="189" y="214" key="Vcs.Push.Dialog.v2" timestamp="1602588842976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="189" y="214" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602588665309" />
+    <state x="189" y="214" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602588842976" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602137640175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602137640175" />
-    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602137254641">
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602588811743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602137254641" />
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602588811743" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1601576374757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
