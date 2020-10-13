@@ -23,7 +23,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::resource("Product", "ProductsController");
 Route::resource("Clint", "ClientController");
 Route::post("addToCart","SessionController@addToCart");
-Route::get("/printSession", "SessionController@printSession");MENU
+Route::get("/printSession", "SessionController@printSession");
 Route::get("/destroySession", "SessionController@destroySession");
 Route::get("/checkout", "CheckoutController@checkout");
 Route::get("/removeFromSession/{id}", function ($id){

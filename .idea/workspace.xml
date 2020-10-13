@@ -13,7 +13,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98427798-9381-4b81-97b1-a981d1f7d9e5" name="Default Changelist" comment="UPDATE PLUGINS" />
+    <list default="true" id="98427798-9381-4b81-97b1-a981d1f7d9e5" name="Default Changelist" comment="UPDATE PLUGINS">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readmePictures/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readmePictures/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readmePictures/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readmePictures/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readmePictures/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readmePictures/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readmePictures/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,9 +154,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/readmePictures" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -156,11 +170,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\xamppLatest\htdocs\laravel\inventory_management\readmePictures" />
+      <recent name="G:\xamppLatest\htdocs\laravel\inventory_management\resources\views\client" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\xamppLatest\htdocs\laravel\inventory_management\resources\views\product" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\xamppLatest\htdocs\laravel\inventory_management\resources\views\client" />
     </key>
   </component>
   <component name="RunManager">
@@ -195,7 +210,7 @@
       <workItem from="1602003267579" duration="215000" />
       <workItem from="1602132663881" duration="4656000" />
       <workItem from="1602571360014" duration="1163000" />
-      <workItem from="1602573003713" duration="12000" />
+      <workItem from="1602573003713" duration="4079000" />
     </task>
     <task id="LOCAL-00001" summary="workspace.xml">
       <created>1602137240907</created>
@@ -261,14 +276,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602137221066" />
-    <state x="804" y="422" key="Github.ShareDialog" timestamp="1602133930002">
+    <state x="804" y="422" key="Github.ShareDialog" timestamp="1602573068554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="804" y="422" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602133930002" />
-    <state x="688" y="139" key="Github.UntrackedFilesDialog" timestamp="1602132891150">
+    <state x="804" y="422" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602573068554" />
+    <state x="688" y="139" key="Github.UntrackedFilesDialog" timestamp="1602573090477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="688" y="139" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602132891150" />
+    <state x="688" y="139" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602573090477" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1602573014432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -277,10 +292,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="615" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1601573795683" />
-    <state x="189" y="214" key="Vcs.Push.Dialog.v2" timestamp="1602572976829">
+    <state x="189" y="214" key="Vcs.Push.Dialog.v2" timestamp="1602588665309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="189" y="214" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602572976829" />
+    <state x="189" y="214" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602588665309" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602137640175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
