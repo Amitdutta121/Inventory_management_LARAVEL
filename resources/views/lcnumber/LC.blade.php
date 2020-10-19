@@ -34,8 +34,11 @@
                                 <th>LC Bank Charge 1</th>
                                 <th>LC Bank Charge 2</th>
                                 <th>Insurance bill</th>
+                                <th>Insurance bill 1</th>
                                 <th>Document Bill</th>
-                                <th>Document Name</th>
+                                <th>Document Bill 1</th>
+                                <th>Document Note</th>
+                                <th>Document Note 1</th>
                                 <th>Duty Free Charge</th>
                                 <th>Truck Fair Bill</th>
                                 <th>Total</th>
@@ -55,8 +58,11 @@
                                         <td>{{$lc->lc_margin_2_security_money}}</td>
                                         <td>{{$lc->lc_margin_2_bank_charge}}</td>
                                         <td>{{$lc->lc_insurance_bill}}</td>
+                                        <td>{{$lc->lc_insurance_bill_1}}</td>
                                         <td>{{$lc->lc_document_bill}}</td>
+                                        <td>{{$lc->lc_document_bill_1}}</td>
                                         <td>{{$lc->lc_document_name}}</td>
+                                        <td>{{$lc->	lc_document_name_1}}</td>
                                         <td>{{$lc->lc_duty_free_charge}}</td>
                                         <td>{{$lc->lc_truck_fair_bill}}</td>
                                         <td>{{$lc->total}}</td>

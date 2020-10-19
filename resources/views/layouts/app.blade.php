@@ -15,6 +15,13 @@
     <link rel="stylesheet" href="{{asset('asset/dist/css/adminlte.min.css')}}">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <style>
+        @media print {
+            .main-footer{
+                display: none;
+            }
+        }
+    </style>
 
     @yield('third_party_stylesheets')
 
@@ -52,7 +59,6 @@
                     </li>
                     <!-- Menu Footer-->
                     <li class="user-footer">
-                        <a href="#" class="btn btn-default btn-flat">Profile</a>
                         <a href="#" class="btn btn-default btn-flat float-right"
                            onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                             Sign out

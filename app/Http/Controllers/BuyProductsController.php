@@ -46,19 +46,22 @@ class BuyProductsController extends Controller
 
         $mID = $sellRecords->sell_records_id;
         $sessData = session()->get("sellSession");
+        $countProducts = count(session()->get("sellSession"));
+        $j =0;
 
-        for ($i =0; $i<count($sessData); $i++) {
-
+        while ($j<$countProducts) {
             $sellRecordsProducts = new Create_products_sell_records_all();
             $sellRecordsProducts->sell_records_id = $mID;
-            $sellRecordsProducts->products_id = $sessData[$i][0];
-            $sellRecordsProducts->products_quantity = $sessData[$i][3];
-            $sellRecordsProducts->product_price = $sessData[$i][2];
+            $sellRecordsProducts->products_id = $sessData[$j][0];
+            $sellRecordsProducts->products_quantity = $sessData[$j][3];
+            $sellRecordsProducts->product_price = $sessData[$j][2];
             $sellRecordsProducts->save();
 
-            $product = Product::find($sessData[$i][0]);
-            $product->product_stocks =  $product->product_stocks - $sessData[$i][0];
+            $product = Product::find($sessData[$j][0]);
+            $product->product_stocks = $product->product_stocks - $sessData[$j][3];
             $product->save();
+            $j++;
+        }
 
             $total = 0;
             for($i =0; $i<count($sessData); $i++){
@@ -68,9 +71,11 @@ class BuyProductsController extends Controller
             $client = Clint::find($request->input("cnumber"));
             $client->client_balance = $client->client_balance - $total;
             $client->save();
-        }
+            session()->forget("sellSession");
 
-        session()->forget("sellSession");
+
+
+
         return redirect("/buyProduct");
     }
 }

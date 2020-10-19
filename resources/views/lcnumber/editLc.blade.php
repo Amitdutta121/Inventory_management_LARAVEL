@@ -71,6 +71,13 @@
                                             <input type="number" name="insuranceBill" class="form-control" value="{{$editLc->lc_insurance_bill}}" autocomplete="off" id="exampleInputEmail1">
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>4.</td>
+                                        <td>Insurance Bill 1</td>
+                                        <td>
+                                            <input type="number" name="insuranceBill1" class="form-control" value="{{$editLc->lc_insurance_bill_1}}" autocomplete="off" id="exampleInputEmail1">
+                                        </td>
+                                    </tr>
 
                                     <tr>
                                         <td>4.</td>
@@ -87,6 +94,20 @@
                                         </td>
                                     </tr>
 
+                                    <tr>
+                                        <td>4.</td>
+                                        <td>Document Bill 1</td>
+                                        <td>
+                                            <input type="number" name="documentBill1" class="form-control" value="{{$editLc->lc_document_bill_1}}" autocomplete="off" id="exampleInputEmail1">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>4.</td>
+                                        <td>Document Note 1</td>
+                                        <td>
+                                            <input type="text" name="documentNote1" class="form-control" value="{{$editLc->lc_document_name_1}}" autocomplete="off" id="exampleInputEmail1"></input>
+                                        </td>
+                                    </tr>
                                     <tr>
                                         <td>4.</td>
                                         <td>Duty Free Charge</td>

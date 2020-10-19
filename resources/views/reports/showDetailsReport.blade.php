@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="{{asset('asset/plugins/datatables-responsive/css/responsive.bootstrap4.min.css')}}">
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    <style>
+        @media print {
+            .btn-print {
+                display: none;
+            }
+        }
+    </style>
 @endsection
 
 @section('content')
@@ -78,7 +86,7 @@
                                     <td>{{$total}} TK</td>
                                 </tr>
                             </table>
-                            <button class="btn btn-default" onclick="window.print()" style="margin-bottom: 50px"><i class="fas fa-print"></i> Print</button>
+                            <button class="btn btn-default btn-print" onclick="window.print()" style="margin-bottom: 50px"><i class="fas fa-print"></i> Print</button>
                         </div>
                     </div>
 

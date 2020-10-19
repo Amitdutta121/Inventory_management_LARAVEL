@@ -80,13 +80,13 @@
                                                     <td>{{$product->product_stocks}}</td>
                                                     <td>{{$product->date}}</td>
                                                     <td width="300px">
-                                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Add to Sell</button>
+                                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{{$product->product_id}}" data-whatever="@mdo">Add to Sell</button>
                                                         </button>
 
                                                     </td>
                                                 </tr>
 
-                                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal fade" id="exampleModal{{$product->product_id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                     <div class="modal-dialog" role="document">
                                                         <div class="modal-content">
                                                             <div class="modal-header">

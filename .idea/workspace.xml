@@ -29,7 +29,22 @@
   <component name="ChangeListManager">
     <list default="true" id="98427798-9381-4b81-97b1-a981d1f7d9e5" name="Default Changelist" comment="Add readme images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BuyProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BuyProductsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReportsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReportsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SessionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SessionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/lcnumberController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/lcnumberController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/buyProducts/buyProducts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/buyProducts/buyProducts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/client/clientDetails.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/client/clientDetails.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/client/showClientProducts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/client/showClientProducts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/lcnumber/LC.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/lcnumber/LC.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/lcnumber/addLc.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/lcnumber/addLc.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/lcnumber/editLc.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/lcnumber/editLc.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product/addProduct.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product/addProduct.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product/editProduct.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product/editProduct.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/showDetailsReport.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/reports/showDetailsReport.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +178,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/readmePictures" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../voting" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -217,6 +232,8 @@
       <workItem from="1602571360014" duration="1163000" />
       <workItem from="1602573003713" duration="4079000" />
       <workItem from="1602588788989" duration="332000" />
+      <workItem from="1602699221515" duration="486000" />
+      <workItem from="1603062354002" duration="14518000" />
     </task>
     <task id="LOCAL-00001" summary="workspace.xml">
       <created>1602137240907</created>
@@ -286,10 +303,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601774252720" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602137221066">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602699705785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602137221066" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602699705785" />
     <state x="804" y="422" key="Github.ShareDialog" timestamp="1602573068554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -298,6 +315,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="688" y="139" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602573090477" />
+    <state x="540" y="255" key="IDE.errors.dialog" timestamp="1603070625624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="255" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603070625624" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1602573014432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -322,9 +343,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601576374757" />
-    <state x="1106" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1602003276849">
+    <state x="1106" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1603069903129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1106" y="236" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602003276849" />
+    <state x="1106" y="236" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603069903129" />
   </component>
 </project>

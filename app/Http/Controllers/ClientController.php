@@ -138,27 +138,37 @@ class ClientController extends Controller
     {
 
         $total = [];
-        $sell_records = Sell_records::where("customer_id",$id)->get();
+        $products  = [];
+        $product_name  = [];
+        $sell_records = Sell_records::where("customer_id",$id)->orderBy('date', 'desc')->get();
         for ($i=0; $i<count($sell_records); $i++){
             $createSellRecordsProducts = Create_products_sell_records_all::where("sell_records_id",$sell_records[$i]->sell_records_id)->get();
             $subtotal = 0;
             foreach ($createSellRecordsProducts as $product){
                 $subtotal = $subtotal + ($product->products_quantity * $product->product_price);
+                array_push($product_name, Product::find($product->products_id)->product_name);
             }
             array_push($total, $subtotal);
+            array_push($products, $createSellRecordsProducts);
         }
-        return view("client.clientDetails")->with("sell_records",$sell_records)->with("total",$total);
+
+        return view("client.clientDetails")
+                ->with("sell_records",$sell_records)
+                ->with("total",$total)
+                ->with("products", $products);
     }
 
     public function clientDetailsProduct($id)
     {
+        $details = Sell_records::find($id);
         $product_names = [];
         $createSellRecordsProducts = Create_products_sell_records_all::where("sell_records_id",$id)->get();
 
         foreach ($createSellRecordsProducts as $products){
             array_push($product_names, Product::find($products->products_id)->product_name);
         }
-        return view("client.showClientProducts")->with("products", $createSellRecordsProducts)->with("productNames", $product_names);
+
+        return view("client.showClientProducts")->with("products", $createSellRecordsProducts)->with("productNames", $product_names)->with("details", $details);
     }
 
     public function clientTransitionReport()
@@ -172,5 +182,9 @@ class ClientController extends Controller
             array_push($clientPhoneNo, $client->client_phoneno);
         }
         return view("client.clintsTransition")->with("addMoneyRecords",$addMoneyRecords)->with("clientNames",$clientName)->with("phoneno",$clientPhoneNo);
+    }
+
+    public static function getName($id) {
+        return Product::find($id)->product_name;
     }
 }

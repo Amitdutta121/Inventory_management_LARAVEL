@@ -23,7 +23,12 @@ class ReportsController extends Controller
 
             foreach ($expenseRecord as $expense){
                 $subTotal = $subTotal + $expense->lc_amount + $expense->labour_cost+$expense->transportation_cost+$expense->other_cost;
-                array_push($lcNumber, Lcnumber::find($expense->lc_id)->lc_number);
+                if ($expense->lc_id != ""){
+                    array_push($lcNumber, Lcnumber::find($expense->lc_id)->lc_number);
+                }else{
+                    array_push($lcNumber, "");
+                }
+
             }
             return view("reports.showDetailsReport")->with("expenseRecord",$expenseRecord)->with("total",$subTotal)->with("lcNumber",$lcNumber);
     }

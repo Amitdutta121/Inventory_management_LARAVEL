@@ -15,7 +15,6 @@ class SessionController extends Controller
             return redirect('/buyProduct');
         }else {
             $cart = $request->session()->get("sellSession");
-
             if (!$cart) {
                 $request->session()->put("sellSession", array([$request->input("product_id"), $request->input("product_name"), $request->input("price"), $request->input("quantity")]));
             } else {
@@ -30,10 +29,10 @@ class SessionController extends Controller
     }
     public function printSession()
     {
-        return session()->get("user_role");
+        return session()->get("sellSession");
     }
     public function destroySession()
     {
-        session()->forget("user_role");
+        session()->forget("sellSession");
     }
 }

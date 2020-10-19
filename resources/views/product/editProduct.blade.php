@@ -45,7 +45,7 @@
                                                         @if($lc->lc_number == $editProduct->product_lc_id)
                                                             selected
                                                         @endif
-                                                        value="{{$lc->lc_number}}">{{$lc->lc_number}}</option>
+                                                        value="{{$editProduct->product_lc_id}}">{{$lc->lc_number}}</option>
                                                 @endforeach
                                             </select>
 

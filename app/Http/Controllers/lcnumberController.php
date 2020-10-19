@@ -30,6 +30,11 @@ class lcnumberController extends Controller
         $lcnumber->lc_document_name = $request->input("documentNote");
         $lcnumber->lc_duty_free_charge = $request->input("dutyFreeCharge");
         $lcnumber->lc_truck_fair_bill = $request->input("truckFairBill");
+
+        $lcnumber->lc_insurance_bill_1 = $request->input("insuranceBill1");
+        $lcnumber->lc_document_bill_1 = $request->input("documentBill1");
+        $lcnumber->lc_document_name_1 = $request->input("documentNote1");
+
         $lcnumber->date = date('Y-m-d');
         $lcnumber->total = $request->input("s1") + $request->input("bankCharge1") +
             $request->input("s2") +$request->input("bankCharge2") +$request->input("insuranceBill") +$request->input("documentBill")+

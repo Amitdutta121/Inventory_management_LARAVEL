@@ -60,7 +60,10 @@
                                         <td>3.</td>
                                         <td>Origin</td>
                                         <td>
-                                            <input type="text" required name="origin" class="form-control" value="" autocomplete="off" id="exampleInputEmail1">
+                                            <select required name="origin" class="form-control">
+                                                <option value="china">China</option>
+                                                <option value="bangladesh">Bangladesh</option>
+                                            </select>
                                         </td>
 
                                     </tr>

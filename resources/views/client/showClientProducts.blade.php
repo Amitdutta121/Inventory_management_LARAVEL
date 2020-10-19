@@ -6,6 +6,13 @@
     <link rel="stylesheet" href="{{asset('asset/plugins/datatables-responsive/css/responsive.bootstrap4.min.css')}}">
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <style>
+        @media print {
+            .btn-print{
+                display: none;
+            }
+        }
+    </style>
 @endsection
 
 @section('content')
@@ -16,7 +23,39 @@
                 <!-- /.card -->
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">INVENTORY</h3>
+                        <h3 class="card-title">Client Details</h3>
+
+                    </div>
+                    <div class="card-body">
+                            <table class="table table-bordered">
+                                <thead>
+                                <tr>
+                                    <th style="width: 10px">#</th>
+                                    <th>Task</th>
+                                    <th>Details</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>1.</td>
+                                    <td>Calan Number</td>
+                                    <td>
+                                        <h4>{{$details->calan_number}}</h4>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1.</td>
+                                    <td>Date</td>
+                                    <td>
+                                        <h4>{{$details->date}}</h4>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                    </div>
+                    <div class="card-header">
+                        <h3 class="card-title">Products</h3>
+
                     </div>
                     <div class="card-body table-responsive p-0">
                         <table class="table table-hover text-nowrap">
@@ -41,12 +80,12 @@
 
                             @endforeach
                             @endif
-
                             </tbody>
                         </table>
                     </div>
 
                 </div>
+                <button class="btn btn-default btn-print" onclick="window.print()" style="margin-bottom: 50px"><i class="fas fa-print"></i> Print</button>
                 <!-- /.card -->
             </div>
             <!-- /.col -->
