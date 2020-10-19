@@ -27,24 +27,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98427798-9381-4b81-97b1-a981d1f7d9e5" name="Default Changelist" comment="Add readme images">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BuyProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BuyProductsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReportsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReportsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SessionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SessionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/lcnumberController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/lcnumberController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/buyProducts/buyProducts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/buyProducts/buyProducts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/client/clientDetails.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/client/clientDetails.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/client/showClientProducts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/client/showClientProducts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/lcnumber/LC.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/lcnumber/LC.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/lcnumber/addLc.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/lcnumber/addLc.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/lcnumber/editLc.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/lcnumber/editLc.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/product/addProduct.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product/addProduct.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/product/editProduct.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product/editProduct.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/reports/showDetailsReport.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/reports/showDetailsReport.blade.php" afterDir="false" />
+    <list default="true" id="98427798-9381-4b81-97b1-a981d1f7d9e5" name="Default Changelist" comment="Add new fields and generate report for users">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +217,7 @@
       <workItem from="1602573003713" duration="4079000" />
       <workItem from="1602588788989" duration="332000" />
       <workItem from="1602699221515" duration="486000" />
-      <workItem from="1603062354002" duration="14518000" />
+      <workItem from="1603062354002" duration="14705000" />
     </task>
     <task id="LOCAL-00001" summary="workspace.xml">
       <created>1602137240907</created>
@@ -263,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602588838039</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add new fields and generate report for users">
+      <created>1603082068265</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603082068266</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +279,8 @@
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="UPDATE PLUGINS" />
     <MESSAGE value="Add readme images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add readme images" />
+    <MESSAGE value="Add new fields and generate report for users" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new fields and generate report for users" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="399" key="#Composer" timestamp="1601312794911">
@@ -299,6 +291,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="191" y="49" key="#Live_Templates/0.0.1920.1040@0.0.1920.1040" timestamp="1601578462804" />
+    <state x="716" y="340" key="#Notifications" timestamp="1603082120274">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="716" y="340" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1603082120274" />
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601774252720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -327,10 +323,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="615" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1601573795683" />
-    <state x="189" y="214" key="Vcs.Push.Dialog.v2" timestamp="1602588842976">
+    <state x="189" y="214" key="Vcs.Push.Dialog.v2" timestamp="1603082077664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="189" y="214" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602588842976" />
+    <state x="189" y="214" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603082077664" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602137640175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
